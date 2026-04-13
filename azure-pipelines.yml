@@ -17,6 +17,6 @@ steps:
 - task: PublishBuildArtifacts@1
 - task: FortifyScanCentralDAST@7
   inputs:
-    scanCentralDastApiUrl: 'https://192.168.70.45:5001/api'
+    scanCentralDastApiUrl: 'https://pentester:5001/api'
     scanCentralCiCdToken: '2&branch'
     sscCiToken: '$(ScanCentral.SscCiToken)'
