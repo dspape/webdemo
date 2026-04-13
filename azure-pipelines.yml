@@ -18,5 +18,5 @@ steps:
 - task: FortifyScanCentralDAST@7
   inputs:
     scanCentralDastApiUrl: 'https://pentester:5001/api'
-    scanCentralCiCdToken: '2&branch'
+    scanCentralCiCdToken: '2'
     sscCiToken: 'cac97901-cef5-4597-94f1-ff444b979646'
