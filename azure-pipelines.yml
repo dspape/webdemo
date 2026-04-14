@@ -19,6 +19,6 @@ steps:
 
 - task: FortifyScanCentralDAST@7
   inputs:
-    scanCentralDastApiUrl: 'https://pentester:5001/api/scans/start-scan-cicd'
+    scanCentralDastApiUrl: 'https://pentester:5001/'
     scanCentralCiCdToken: '2'
     sscCiToken: '$(ScanCentral.SscCiToken)'
