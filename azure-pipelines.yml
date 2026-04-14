@@ -15,8 +15,9 @@ steps:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
+
 - task: FortifyScanCentralDAST@7
   inputs:
-    scanCentralDastApiUrl: 'https://bouznika.wafacash.com:5001/swagger/index.html'
+    scanCentralDastApiUrl: 'https://pentester:5001/swagger/index.html'
     scanCentralCiCdToken: '2'
     sscCiToken: 'cac97901-cef5-4597-94f1-ff444b979646'
