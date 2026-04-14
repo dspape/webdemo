@@ -21,5 +21,4 @@ steps:
   inputs:
     scanCentralDastApiUrl: 'https://pentester:5001/api/'
     scanCentralCiCdToken: '2'
-    sscCiToken: '$(ScanCentral.SscCiToken)'
-    targetUrl: 'http://192.168.70.44:3000/'
+    sscCiToken: 'cac97901-cef5-4597-94f1-ff444b97964'
